@@ -1,0 +1,11 @@
+{
+  "seed": 0,
+  "stream": 11,
+  "per_bucket": 800,
+  "rows": 9600,
+  "d_already_used": 5850,
+  "rejected": {
+    "no draw in the band": 159
+  },
+  "recipe": "build_buckets, as train.jsonl"
+}

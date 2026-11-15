@@ -1,0 +1,50 @@
+[
+{
+"setting": "full@full",
+"prompt": "full",
+"acc": 98.6,
+"tokens": 430
+},
+{
+"setting": "full@no_role_question",
+"prompt": "role sentences removed",
+"acc": 98.6,
+"tokens": 371
+},
+{
+"setting": "full@no_field_descriptions",
+"prompt": "field descriptions removed",
+"acc": 98.6,
+"tokens": 294
+},
+{
+"setting": "full@compressed",
+"prompt": "rule sentences removed",
+"acc": 43.3,
+"tokens": 201
+},
+{
+"setting": "compressed",
+"prompt": "trained at compressed",
+"acc": 12.1,
+"tokens": 201
+},
+{
+"setting": "compressed_mass_sentences",
+"prompt": "compressed + mass sentence",
+"acc": 9.2,
+"tokens": 214
+},
+{
+"setting": "compressed_payload_rule",
+"prompt": "compressed + payload rule sentence",
+"acc": 100.0,
+"tokens": 216
+},
+{
+"setting": "compressed_payload_rule_mass_sentences",
+"prompt": "compressed + both sentences",
+"acc": 100.0,
+"tokens": 229
+}
+]

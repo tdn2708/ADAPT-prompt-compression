@@ -1,0 +1,53 @@
+{
+ "name": "qwen2.5-0.5b",
+ "model": "Qwen/Qwen2.5-0.5B-Instruct",
+ "train": "none",
+ "level": "compressed",
+ "cross": "",
+ "steps": 900,
+ "batch": 8,
+ "micro_batch": 0,
+ "eval_batch": 16,
+ "lr": 0.0002,
+ "seed": 3407,
+ "lora_targets": "q_proj,k_proj,v_proj,o_proj,gate_proj,up_proj,down_proj",
+ "val_every": 150,
+ "val_n": 480,
+ "sets": "",
+ "limit": 0,
+ "bench": {
+  "full": {
+   "n": 20,
+   "tokens_mean": 432.55,
+   "ms_mean": 2131.342894991394,
+   "ms_median": 2114.925800007768
+  },
+  "no_role_question": {
+   "n": 20,
+   "tokens_mean": 373.55,
+   "ms_mean": 1843.6451649991795,
+   "ms_median": 1858.1951999804005
+  },
+  "no_field_descriptions": {
+   "n": 20,
+   "tokens_mean": 296.55,
+   "ms_mean": 1468.5806000081357,
+   "ms_median": 1486.8113500415348
+  },
+  "compressed": {
+   "n": 20,
+   "tokens_mean": 203.95,
+   "ms_mean": 951.1221649881918,
+   "ms_median": 950.2949999878183
+  }
+ },
+ "data": "data",
+ "out": "results/cpu_latency",
+ "device": "cpu",
+ "amp": "torch.float16",
+ "final_level": "compressed",
+ "torch": "2.14.1+cpu",
+ "results": {},
+ "predictions": {},
+ "eval_oom_splits": 0
+}

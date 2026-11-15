@@ -1,0 +1,1676 @@
+[
+{
+"cell": "Qwen2.5-0.5B full payload",
+"model": "Qwen2.5-0.5B",
+"config": "full",
+"rule": "payload",
+"reasoning": "look-up",
+"n_rows": 47,
+"acc": 4.3
+},
+{
+"cell": "Qwen2.5-0.5B full reach_pick",
+"model": "Qwen2.5-0.5B",
+"config": "full",
+"rule": "reach_pick",
+"reasoning": "comparison",
+"n_rows": 41,
+"acc": 65.0
+},
+{
+"cell": "Qwen2.5-0.5B full reach_place",
+"model": "Qwen2.5-0.5B",
+"config": "full",
+"rule": "reach_place",
+"reasoning": "comparison",
+"n_rows": 38,
+"acc": 50.9
+},
+{
+"cell": "Qwen2.5-0.5B full height",
+"model": "Qwen2.5-0.5B",
+"config": "full",
+"rule": "height",
+"reasoning": "comparison",
+"n_rows": 48,
+"acc": 63.9
+},
+{
+"cell": "Qwen2.5-0.5B full clearance",
+"model": "Qwen2.5-0.5B",
+"config": "full",
+"rule": "clearance",
+"reasoning": "minimum",
+"n_rows": 44,
+"acc": 19.7
+},
+{
+"cell": "Qwen2.5-0.5B full battery",
+"model": "Qwen2.5-0.5B",
+"config": "full",
+"rule": "battery",
+"reasoning": "arithmetic",
+"n_rows": 53,
+"acc": 58.5
+},
+{
+"cell": "Qwen2.5-0.5B compressed payload",
+"model": "Qwen2.5-0.5B",
+"config": "compressed",
+"rule": "payload",
+"reasoning": "look-up",
+"n_rows": 47,
+"acc": 15.6
+},
+{
+"cell": "Qwen2.5-0.5B compressed reach_pick",
+"model": "Qwen2.5-0.5B",
+"config": "compressed",
+"rule": "reach_pick",
+"reasoning": "comparison",
+"n_rows": 41,
+"acc": 65.9
+},
+{
+"cell": "Qwen2.5-0.5B compressed reach_place",
+"model": "Qwen2.5-0.5B",
+"config": "compressed",
+"rule": "reach_place",
+"reasoning": "comparison",
+"n_rows": 38,
+"acc": 46.5
+},
+{
+"cell": "Qwen2.5-0.5B compressed height",
+"model": "Qwen2.5-0.5B",
+"config": "compressed",
+"rule": "height",
+"reasoning": "comparison",
+"n_rows": 48,
+"acc": 61.8
+},
+{
+"cell": "Qwen2.5-0.5B compressed clearance",
+"model": "Qwen2.5-0.5B",
+"config": "compressed",
+"rule": "clearance",
+"reasoning": "minimum",
+"n_rows": 44,
+"acc": 18.9
+},
+{
+"cell": "Qwen2.5-0.5B compressed battery",
+"model": "Qwen2.5-0.5B",
+"config": "compressed",
+"rule": "battery",
+"reasoning": "arithmetic",
+"n_rows": 53,
+"acc": 15.7
+},
+{
+"cell": "Qwen2.5-0.5B progressive_4_levels payload",
+"model": "Qwen2.5-0.5B",
+"config": "progressive_4_levels",
+"rule": "payload",
+"reasoning": "look-up",
+"n_rows": 47,
+"acc": 6.4
+},
+{
+"cell": "Qwen2.5-0.5B progressive_4_levels reach_pick",
+"model": "Qwen2.5-0.5B",
+"config": "progressive_4_levels",
+"rule": "reach_pick",
+"reasoning": "comparison",
+"n_rows": 41,
+"acc": 62.6
+},
+{
+"cell": "Qwen2.5-0.5B progressive_4_levels reach_place",
+"model": "Qwen2.5-0.5B",
+"config": "progressive_4_levels",
+"rule": "reach_place",
+"reasoning": "comparison",
+"n_rows": 38,
+"acc": 47.4
+},
+{
+"cell": "Qwen2.5-0.5B progressive_4_levels height",
+"model": "Qwen2.5-0.5B",
+"config": "progressive_4_levels",
+"rule": "height",
+"reasoning": "comparison",
+"n_rows": 48,
+"acc": 61.8
+},
+{
+"cell": "Qwen2.5-0.5B progressive_4_levels clearance",
+"model": "Qwen2.5-0.5B",
+"config": "progressive_4_levels",
+"rule": "clearance",
+"reasoning": "minimum",
+"n_rows": 44,
+"acc": 23.5
+},
+{
+"cell": "Qwen2.5-0.5B progressive_4_levels battery",
+"model": "Qwen2.5-0.5B",
+"config": "progressive_4_levels",
+"rule": "battery",
+"reasoning": "arithmetic",
+"n_rows": 53,
+"acc": 61.0
+},
+{
+"cell": "Qwen2.5-0.5B progressive payload",
+"model": "Qwen2.5-0.5B",
+"config": "progressive",
+"rule": "payload",
+"reasoning": "look-up",
+"n_rows": 47,
+"acc": 2.8
+},
+{
+"cell": "Qwen2.5-0.5B progressive reach_pick",
+"model": "Qwen2.5-0.5B",
+"config": "progressive",
+"rule": "reach_pick",
+"reasoning": "comparison",
+"n_rows": 41,
+"acc": 72.4
+},
+{
+"cell": "Qwen2.5-0.5B progressive reach_place",
+"model": "Qwen2.5-0.5B",
+"config": "progressive",
+"rule": "reach_place",
+"reasoning": "comparison",
+"n_rows": 38,
+"acc": 51.8
+},
+{
+"cell": "Qwen2.5-0.5B progressive height",
+"model": "Qwen2.5-0.5B",
+"config": "progressive",
+"rule": "height",
+"reasoning": "comparison",
+"n_rows": 48,
+"acc": 43.1
+},
+{
+"cell": "Qwen2.5-0.5B progressive clearance",
+"model": "Qwen2.5-0.5B",
+"config": "progressive",
+"rule": "clearance",
+"reasoning": "minimum",
+"n_rows": 44,
+"acc": 12.9
+},
+{
+"cell": "Qwen2.5-0.5B progressive battery",
+"model": "Qwen2.5-0.5B",
+"config": "progressive",
+"rule": "battery",
+"reasoning": "arithmetic",
+"n_rows": 53,
+"acc": 51.6
+},
+{
+"cell": "Qwen2.5-1.5B full payload",
+"model": "Qwen2.5-1.5B",
+"config": "full",
+"rule": "payload",
+"reasoning": "look-up",
+"n_rows": 47,
+"acc": 98.6
+},
+{
+"cell": "Qwen2.5-1.5B full reach_pick",
+"model": "Qwen2.5-1.5B",
+"config": "full",
+"rule": "reach_pick",
+"reasoning": "comparison",
+"n_rows": 41,
+"acc": 63.4
+},
+{
+"cell": "Qwen2.5-1.5B full reach_place",
+"model": "Qwen2.5-1.5B",
+"config": "full",
+"rule": "reach_place",
+"reasoning": "comparison",
+"n_rows": 38,
+"acc": 42.1
+},
+{
+"cell": "Qwen2.5-1.5B full height",
+"model": "Qwen2.5-1.5B",
+"config": "full",
+"rule": "height",
+"reasoning": "comparison",
+"n_rows": 48,
+"acc": 46.5
+},
+{
+"cell": "Qwen2.5-1.5B full clearance",
+"model": "Qwen2.5-1.5B",
+"config": "full",
+"rule": "clearance",
+"reasoning": "minimum",
+"n_rows": 44,
+"acc": 10.6
+},
+{
+"cell": "Qwen2.5-1.5B full battery",
+"model": "Qwen2.5-1.5B",
+"config": "full",
+"rule": "battery",
+"reasoning": "arithmetic",
+"n_rows": 53,
+"acc": 56.6
+},
+{
+"cell": "Qwen2.5-1.5B compressed payload",
+"model": "Qwen2.5-1.5B",
+"config": "compressed",
+"rule": "payload",
+"reasoning": "look-up",
+"n_rows": 47,
+"acc": 12.1
+},
+{
+"cell": "Qwen2.5-1.5B compressed reach_pick",
+"model": "Qwen2.5-1.5B",
+"config": "compressed",
+"rule": "reach_pick",
+"reasoning": "comparison",
+"n_rows": 41,
+"acc": 71.5
+},
+{
+"cell": "Qwen2.5-1.5B compressed reach_place",
+"model": "Qwen2.5-1.5B",
+"config": "compressed",
+"rule": "reach_place",
+"reasoning": "comparison",
+"n_rows": 38,
+"acc": 53.5
+},
+{
+"cell": "Qwen2.5-1.5B compressed height",
+"model": "Qwen2.5-1.5B",
+"config": "compressed",
+"rule": "height",
+"reasoning": "comparison",
+"n_rows": 48,
+"acc": 54.9
+},
+{
+"cell": "Qwen2.5-1.5B compressed clearance",
+"model": "Qwen2.5-1.5B",
+"config": "compressed",
+"rule": "clearance",
+"reasoning": "minimum",
+"n_rows": 44,
+"acc": 17.4
+},
+{
+"cell": "Qwen2.5-1.5B compressed battery",
+"model": "Qwen2.5-1.5B",
+"config": "compressed",
+"rule": "battery",
+"reasoning": "arithmetic",
+"n_rows": 53,
+"acc": 67.9
+},
+{
+"cell": "Qwen2.5-1.5B progressive_4_levels payload",
+"model": "Qwen2.5-1.5B",
+"config": "progressive_4_levels",
+"rule": "payload",
+"reasoning": "look-up",
+"n_rows": 47,
+"acc": 5.0
+},
+{
+"cell": "Qwen2.5-1.5B progressive_4_levels reach_pick",
+"model": "Qwen2.5-1.5B",
+"config": "progressive_4_levels",
+"rule": "reach_pick",
+"reasoning": "comparison",
+"n_rows": 41,
+"acc": 57.7
+},
+{
+"cell": "Qwen2.5-1.5B progressive_4_levels reach_place",
+"model": "Qwen2.5-1.5B",
+"config": "progressive_4_levels",
+"rule": "reach_place",
+"reasoning": "comparison",
+"n_rows": 38,
+"acc": 41.2
+},
+{
+"cell": "Qwen2.5-1.5B progressive_4_levels height",
+"model": "Qwen2.5-1.5B",
+"config": "progressive_4_levels",
+"rule": "height",
+"reasoning": "comparison",
+"n_rows": 48,
+"acc": 47.9
+},
+{
+"cell": "Qwen2.5-1.5B progressive_4_levels clearance",
+"model": "Qwen2.5-1.5B",
+"config": "progressive_4_levels",
+"rule": "clearance",
+"reasoning": "minimum",
+"n_rows": 44,
+"acc": 9.1
+},
+{
+"cell": "Qwen2.5-1.5B progressive_4_levels battery",
+"model": "Qwen2.5-1.5B",
+"config": "progressive_4_levels",
+"rule": "battery",
+"reasoning": "arithmetic",
+"n_rows": 53,
+"acc": 53.5
+},
+{
+"cell": "Qwen2.5-1.5B progressive payload",
+"model": "Qwen2.5-1.5B",
+"config": "progressive",
+"rule": "payload",
+"reasoning": "look-up",
+"n_rows": 47,
+"acc": 6.4
+},
+{
+"cell": "Qwen2.5-1.5B progressive reach_pick",
+"model": "Qwen2.5-1.5B",
+"config": "progressive",
+"rule": "reach_pick",
+"reasoning": "comparison",
+"n_rows": 41,
+"acc": 61.0
+},
+{
+"cell": "Qwen2.5-1.5B progressive reach_place",
+"model": "Qwen2.5-1.5B",
+"config": "progressive",
+"rule": "reach_place",
+"reasoning": "comparison",
+"n_rows": 38,
+"acc": 41.2
+},
+{
+"cell": "Qwen2.5-1.5B progressive height",
+"model": "Qwen2.5-1.5B",
+"config": "progressive",
+"rule": "height",
+"reasoning": "comparison",
+"n_rows": 48,
+"acc": 61.8
+},
+{
+"cell": "Qwen2.5-1.5B progressive clearance",
+"model": "Qwen2.5-1.5B",
+"config": "progressive",
+"rule": "clearance",
+"reasoning": "minimum",
+"n_rows": 44,
+"acc": 12.9
+},
+{
+"cell": "Qwen2.5-1.5B progressive battery",
+"model": "Qwen2.5-1.5B",
+"config": "progressive",
+"rule": "battery",
+"reasoning": "arithmetic",
+"n_rows": 53,
+"acc": 45.9
+},
+{
+"cell": "Qwen2.5-1.5B compressed_mass_sentences payload",
+"model": "Qwen2.5-1.5B",
+"config": "compressed_mass_sentences",
+"rule": "payload",
+"reasoning": "look-up",
+"n_rows": 47,
+"acc": 9.2
+},
+{
+"cell": "Qwen2.5-1.5B compressed_mass_sentences reach_pick",
+"model": "Qwen2.5-1.5B",
+"config": "compressed_mass_sentences",
+"rule": "reach_pick",
+"reasoning": "comparison",
+"n_rows": 41,
+"acc": 69.1
+},
+{
+"cell": "Qwen2.5-1.5B compressed_mass_sentences reach_place",
+"model": "Qwen2.5-1.5B",
+"config": "compressed_mass_sentences",
+"rule": "reach_place",
+"reasoning": "comparison",
+"n_rows": 38,
+"acc": 57.0
+},
+{
+"cell": "Qwen2.5-1.5B compressed_mass_sentences height",
+"model": "Qwen2.5-1.5B",
+"config": "compressed_mass_sentences",
+"rule": "height",
+"reasoning": "comparison",
+"n_rows": 48,
+"acc": 76.4
+},
+{
+"cell": "Qwen2.5-1.5B compressed_mass_sentences clearance",
+"model": "Qwen2.5-1.5B",
+"config": "compressed_mass_sentences",
+"rule": "clearance",
+"reasoning": "minimum",
+"n_rows": 44,
+"acc": 20.5
+},
+{
+"cell": "Qwen2.5-1.5B compressed_mass_sentences battery",
+"model": "Qwen2.5-1.5B",
+"config": "compressed_mass_sentences",
+"rule": "battery",
+"reasoning": "arithmetic",
+"n_rows": 53,
+"acc": 66.7
+},
+{
+"cell": "Qwen2.5-1.5B progressive_mass_sentences payload",
+"model": "Qwen2.5-1.5B",
+"config": "progressive_mass_sentences",
+"rule": "payload",
+"reasoning": "look-up",
+"n_rows": 47,
+"acc": 4.3
+},
+{
+"cell": "Qwen2.5-1.5B progressive_mass_sentences reach_pick",
+"model": "Qwen2.5-1.5B",
+"config": "progressive_mass_sentences",
+"rule": "reach_pick",
+"reasoning": "comparison",
+"n_rows": 41,
+"acc": 61.0
+},
+{
+"cell": "Qwen2.5-1.5B progressive_mass_sentences reach_place",
+"model": "Qwen2.5-1.5B",
+"config": "progressive_mass_sentences",
+"rule": "reach_place",
+"reasoning": "comparison",
+"n_rows": 38,
+"acc": 43.0
+},
+{
+"cell": "Qwen2.5-1.5B progressive_mass_sentences height",
+"model": "Qwen2.5-1.5B",
+"config": "progressive_mass_sentences",
+"rule": "height",
+"reasoning": "comparison",
+"n_rows": 48,
+"acc": 49.3
+},
+{
+"cell": "Qwen2.5-1.5B progressive_mass_sentences clearance",
+"model": "Qwen2.5-1.5B",
+"config": "progressive_mass_sentences",
+"rule": "clearance",
+"reasoning": "minimum",
+"n_rows": 44,
+"acc": 12.9
+},
+{
+"cell": "Qwen2.5-1.5B progressive_mass_sentences battery",
+"model": "Qwen2.5-1.5B",
+"config": "progressive_mass_sentences",
+"rule": "battery",
+"reasoning": "arithmetic",
+"n_rows": 53,
+"acc": 59.1
+},
+{
+"cell": "Qwen2.5-1.5B compressed_payload_rule payload",
+"model": "Qwen2.5-1.5B",
+"config": "compressed_payload_rule",
+"rule": "payload",
+"reasoning": "look-up",
+"n_rows": 47,
+"acc": 100.0
+},
+{
+"cell": "Qwen2.5-1.5B compressed_payload_rule reach_pick",
+"model": "Qwen2.5-1.5B",
+"config": "compressed_payload_rule",
+"rule": "reach_pick",
+"reasoning": "comparison",
+"n_rows": 41,
+"acc": 61.8
+},
+{
+"cell": "Qwen2.5-1.5B compressed_payload_rule reach_place",
+"model": "Qwen2.5-1.5B",
+"config": "compressed_payload_rule",
+"rule": "reach_place",
+"reasoning": "comparison",
+"n_rows": 38,
+"acc": 46.5
+},
+{
+"cell": "Qwen2.5-1.5B compressed_payload_rule height",
+"model": "Qwen2.5-1.5B",
+"config": "compressed_payload_rule",
+"rule": "height",
+"reasoning": "comparison",
+"n_rows": 48,
+"acc": 54.2
+},
+{
+"cell": "Qwen2.5-1.5B compressed_payload_rule clearance",
+"model": "Qwen2.5-1.5B",
+"config": "compressed_payload_rule",
+"rule": "clearance",
+"reasoning": "minimum",
+"n_rows": 44,
+"acc": 12.9
+},
+{
+"cell": "Qwen2.5-1.5B compressed_payload_rule battery",
+"model": "Qwen2.5-1.5B",
+"config": "compressed_payload_rule",
+"rule": "battery",
+"reasoning": "arithmetic",
+"n_rows": 53,
+"acc": 66.0
+},
+{
+"cell": "Qwen2.5-1.5B compressed_payload_rule_mass_sentences payload",
+"model": "Qwen2.5-1.5B",
+"config": "compressed_payload_rule_mass_sentences",
+"rule": "payload",
+"reasoning": "look-up",
+"n_rows": 47,
+"acc": 100.0
+},
+{
+"cell": "Qwen2.5-1.5B compressed_payload_rule_mass_sentences reach_pick",
+"model": "Qwen2.5-1.5B",
+"config": "compressed_payload_rule_mass_sentences",
+"rule": "reach_pick",
+"reasoning": "comparison",
+"n_rows": 41,
+"acc": 61.8
+},
+{
+"cell": "Qwen2.5-1.5B compressed_payload_rule_mass_sentences reach_place",
+"model": "Qwen2.5-1.5B",
+"config": "compressed_payload_rule_mass_sentences",
+"rule": "reach_place",
+"reasoning": "comparison",
+"n_rows": 38,
+"acc": 47.4
+},
+{
+"cell": "Qwen2.5-1.5B compressed_payload_rule_mass_sentences height",
+"model": "Qwen2.5-1.5B",
+"config": "compressed_payload_rule_mass_sentences",
+"rule": "height",
+"reasoning": "comparison",
+"n_rows": 48,
+"acc": 50.7
+},
+{
+"cell": "Qwen2.5-1.5B compressed_payload_rule_mass_sentences clearance",
+"model": "Qwen2.5-1.5B",
+"config": "compressed_payload_rule_mass_sentences",
+"rule": "clearance",
+"reasoning": "minimum",
+"n_rows": 44,
+"acc": 10.6
+},
+{
+"cell": "Qwen2.5-1.5B compressed_payload_rule_mass_sentences battery",
+"model": "Qwen2.5-1.5B",
+"config": "compressed_payload_rule_mass_sentences",
+"rule": "battery",
+"reasoning": "arithmetic",
+"n_rows": 53,
+"acc": 54.1
+},
+{
+"cell": "Qwen2.5-3B full payload",
+"model": "Qwen2.5-3B",
+"config": "full",
+"rule": "payload",
+"reasoning": "look-up",
+"n_rows": 47,
+"acc": 71.1
+},
+{
+"cell": "Qwen2.5-3B full reach_pick",
+"model": "Qwen2.5-3B",
+"config": "full",
+"rule": "reach_pick",
+"reasoning": "comparison",
+"n_rows": 41,
+"acc": 61.0
+},
+{
+"cell": "Qwen2.5-3B full reach_place",
+"model": "Qwen2.5-3B",
+"config": "full",
+"rule": "reach_place",
+"reasoning": "comparison",
+"n_rows": 38,
+"acc": 48.4
+},
+{
+"cell": "Qwen2.5-3B full height",
+"model": "Qwen2.5-3B",
+"config": "full",
+"rule": "height",
+"reasoning": "comparison",
+"n_rows": 48,
+"acc": 53.8
+},
+{
+"cell": "Qwen2.5-3B full clearance",
+"model": "Qwen2.5-3B",
+"config": "full",
+"rule": "clearance",
+"reasoning": "minimum",
+"n_rows": 44,
+"acc": 35.9
+},
+{
+"cell": "Qwen2.5-3B full battery",
+"model": "Qwen2.5-3B",
+"config": "full",
+"rule": "battery",
+"reasoning": "arithmetic",
+"n_rows": 53,
+"acc": 59.6
+},
+{
+"cell": "Qwen2.5-3B compressed payload",
+"model": "Qwen2.5-3B",
+"config": "compressed",
+"rule": "payload",
+"reasoning": "look-up",
+"n_rows": 47,
+"acc": 82.1
+},
+{
+"cell": "Qwen2.5-3B compressed reach_pick",
+"model": "Qwen2.5-3B",
+"config": "compressed",
+"rule": "reach_pick",
+"reasoning": "comparison",
+"n_rows": 41,
+"acc": 87.8
+},
+{
+"cell": "Qwen2.5-3B compressed reach_place",
+"model": "Qwen2.5-3B",
+"config": "compressed",
+"rule": "reach_place",
+"reasoning": "comparison",
+"n_rows": 38,
+"acc": 87.9
+},
+{
+"cell": "Qwen2.5-3B compressed height",
+"model": "Qwen2.5-3B",
+"config": "compressed",
+"rule": "height",
+"reasoning": "comparison",
+"n_rows": 48,
+"acc": 87.5
+},
+{
+"cell": "Qwen2.5-3B compressed clearance",
+"model": "Qwen2.5-3B",
+"config": "compressed",
+"rule": "clearance",
+"reasoning": "minimum",
+"n_rows": 44,
+"acc": 33.6
+},
+{
+"cell": "Qwen2.5-3B compressed battery",
+"model": "Qwen2.5-3B",
+"config": "compressed",
+"rule": "battery",
+"reasoning": "arithmetic",
+"n_rows": 53,
+"acc": 41.1
+},
+{
+"cell": "Qwen2.5-3B progressive_4_levels payload",
+"model": "Qwen2.5-3B",
+"config": "progressive_4_levels",
+"rule": "payload",
+"reasoning": "look-up",
+"n_rows": 47,
+"acc": 91.5
+},
+{
+"cell": "Qwen2.5-3B progressive_4_levels reach_pick",
+"model": "Qwen2.5-3B",
+"config": "progressive_4_levels",
+"rule": "reach_pick",
+"reasoning": "comparison",
+"n_rows": 41,
+"acc": 70.7
+},
+{
+"cell": "Qwen2.5-3B progressive_4_levels reach_place",
+"model": "Qwen2.5-3B",
+"config": "progressive_4_levels",
+"rule": "reach_place",
+"reasoning": "comparison",
+"n_rows": 38,
+"acc": 61.4
+},
+{
+"cell": "Qwen2.5-3B progressive_4_levels height",
+"model": "Qwen2.5-3B",
+"config": "progressive_4_levels",
+"rule": "height",
+"reasoning": "comparison",
+"n_rows": 48,
+"acc": 54.9
+},
+{
+"cell": "Qwen2.5-3B progressive_4_levels clearance",
+"model": "Qwen2.5-3B",
+"config": "progressive_4_levels",
+"rule": "clearance",
+"reasoning": "minimum",
+"n_rows": 44,
+"acc": 27.3
+},
+{
+"cell": "Qwen2.5-3B progressive_4_levels battery",
+"model": "Qwen2.5-3B",
+"config": "progressive_4_levels",
+"rule": "battery",
+"reasoning": "arithmetic",
+"n_rows": 53,
+"acc": 59.7
+},
+{
+"cell": "Qwen2.5-3B progressive payload",
+"model": "Qwen2.5-3B",
+"config": "progressive",
+"rule": "payload",
+"reasoning": "look-up",
+"n_rows": 47,
+"acc": 98.7
+},
+{
+"cell": "Qwen2.5-3B progressive reach_pick",
+"model": "Qwen2.5-3B",
+"config": "progressive",
+"rule": "reach_pick",
+"reasoning": "comparison",
+"n_rows": 41,
+"acc": 75.6
+},
+{
+"cell": "Qwen2.5-3B progressive reach_place",
+"model": "Qwen2.5-3B",
+"config": "progressive",
+"rule": "reach_place",
+"reasoning": "comparison",
+"n_rows": 38,
+"acc": 68.9
+},
+{
+"cell": "Qwen2.5-3B progressive height",
+"model": "Qwen2.5-3B",
+"config": "progressive",
+"rule": "height",
+"reasoning": "comparison",
+"n_rows": 48,
+"acc": 77.5
+},
+{
+"cell": "Qwen2.5-3B progressive clearance",
+"model": "Qwen2.5-3B",
+"config": "progressive",
+"rule": "clearance",
+"reasoning": "minimum",
+"n_rows": 44,
+"acc": 35.0
+},
+{
+"cell": "Qwen2.5-3B progressive battery",
+"model": "Qwen2.5-3B",
+"config": "progressive",
+"rule": "battery",
+"reasoning": "arithmetic",
+"n_rows": 53,
+"acc": 63.0
+},
+{
+"cell": "Llama-3.2-1B full payload",
+"model": "Llama-3.2-1B",
+"config": "full",
+"rule": "payload",
+"reasoning": "look-up",
+"n_rows": 47,
+"acc": 43.3
+},
+{
+"cell": "Llama-3.2-1B full reach_pick",
+"model": "Llama-3.2-1B",
+"config": "full",
+"rule": "reach_pick",
+"reasoning": "comparison",
+"n_rows": 41,
+"acc": 75.6
+},
+{
+"cell": "Llama-3.2-1B full reach_place",
+"model": "Llama-3.2-1B",
+"config": "full",
+"rule": "reach_place",
+"reasoning": "comparison",
+"n_rows": 38,
+"acc": 60.5
+},
+{
+"cell": "Llama-3.2-1B full height",
+"model": "Llama-3.2-1B",
+"config": "full",
+"rule": "height",
+"reasoning": "comparison",
+"n_rows": 48,
+"acc": 56.9
+},
+{
+"cell": "Llama-3.2-1B full clearance",
+"model": "Llama-3.2-1B",
+"config": "full",
+"rule": "clearance",
+"reasoning": "minimum",
+"n_rows": 44,
+"acc": 50.8
+},
+{
+"cell": "Llama-3.2-1B full battery",
+"model": "Llama-3.2-1B",
+"config": "full",
+"rule": "battery",
+"reasoning": "arithmetic",
+"n_rows": 53,
+"acc": 59.1
+},
+{
+"cell": "Llama-3.2-1B compressed payload",
+"model": "Llama-3.2-1B",
+"config": "compressed",
+"rule": "payload",
+"reasoning": "look-up",
+"n_rows": 47,
+"acc": 83.0
+},
+{
+"cell": "Llama-3.2-1B compressed reach_pick",
+"model": "Llama-3.2-1B",
+"config": "compressed",
+"rule": "reach_pick",
+"reasoning": "comparison",
+"n_rows": 41,
+"acc": 62.6
+},
+{
+"cell": "Llama-3.2-1B compressed reach_place",
+"model": "Llama-3.2-1B",
+"config": "compressed",
+"rule": "reach_place",
+"reasoning": "comparison",
+"n_rows": 38,
+"acc": 49.1
+},
+{
+"cell": "Llama-3.2-1B compressed height",
+"model": "Llama-3.2-1B",
+"config": "compressed",
+"rule": "height",
+"reasoning": "comparison",
+"n_rows": 48,
+"acc": 45.8
+},
+{
+"cell": "Llama-3.2-1B compressed clearance",
+"model": "Llama-3.2-1B",
+"config": "compressed",
+"rule": "clearance",
+"reasoning": "minimum",
+"n_rows": 44,
+"acc": 8.3
+},
+{
+"cell": "Llama-3.2-1B compressed battery",
+"model": "Llama-3.2-1B",
+"config": "compressed",
+"rule": "battery",
+"reasoning": "arithmetic",
+"n_rows": 53,
+"acc": 57.9
+},
+{
+"cell": "Llama-3.2-1B progressive_4_levels payload",
+"model": "Llama-3.2-1B",
+"config": "progressive_4_levels",
+"rule": "payload",
+"reasoning": "look-up",
+"n_rows": 47,
+"acc": 52.5
+},
+{
+"cell": "Llama-3.2-1B progressive_4_levels reach_pick",
+"model": "Llama-3.2-1B",
+"config": "progressive_4_levels",
+"rule": "reach_pick",
+"reasoning": "comparison",
+"n_rows": 41,
+"acc": 64.2
+},
+{
+"cell": "Llama-3.2-1B progressive_4_levels reach_place",
+"model": "Llama-3.2-1B",
+"config": "progressive_4_levels",
+"rule": "reach_place",
+"reasoning": "comparison",
+"n_rows": 38,
+"acc": 57.9
+},
+{
+"cell": "Llama-3.2-1B progressive_4_levels height",
+"model": "Llama-3.2-1B",
+"config": "progressive_4_levels",
+"rule": "height",
+"reasoning": "comparison",
+"n_rows": 48,
+"acc": 56.2
+},
+{
+"cell": "Llama-3.2-1B progressive_4_levels clearance",
+"model": "Llama-3.2-1B",
+"config": "progressive_4_levels",
+"rule": "clearance",
+"reasoning": "minimum",
+"n_rows": 44,
+"acc": 40.9
+},
+{
+"cell": "Llama-3.2-1B progressive_4_levels battery",
+"model": "Llama-3.2-1B",
+"config": "progressive_4_levels",
+"rule": "battery",
+"reasoning": "arithmetic",
+"n_rows": 53,
+"acc": 59.7
+},
+{
+"cell": "Llama-3.2-1B progressive payload",
+"model": "Llama-3.2-1B",
+"config": "progressive",
+"rule": "payload",
+"reasoning": "look-up",
+"n_rows": 47,
+"acc": 51.1
+},
+{
+"cell": "Llama-3.2-1B progressive reach_pick",
+"model": "Llama-3.2-1B",
+"config": "progressive",
+"rule": "reach_pick",
+"reasoning": "comparison",
+"n_rows": 41,
+"acc": 61.8
+},
+{
+"cell": "Llama-3.2-1B progressive reach_place",
+"model": "Llama-3.2-1B",
+"config": "progressive",
+"rule": "reach_place",
+"reasoning": "comparison",
+"n_rows": 38,
+"acc": 59.6
+},
+{
+"cell": "Llama-3.2-1B progressive height",
+"model": "Llama-3.2-1B",
+"config": "progressive",
+"rule": "height",
+"reasoning": "comparison",
+"n_rows": 48,
+"acc": 52.1
+},
+{
+"cell": "Llama-3.2-1B progressive clearance",
+"model": "Llama-3.2-1B",
+"config": "progressive",
+"rule": "clearance",
+"reasoning": "minimum",
+"n_rows": 44,
+"acc": 25.8
+},
+{
+"cell": "Llama-3.2-1B progressive battery",
+"model": "Llama-3.2-1B",
+"config": "progressive",
+"rule": "battery",
+"reasoning": "arithmetic",
+"n_rows": 53,
+"acc": 62.3
+},
+{
+"cell": "Llama-3.2-3B full payload",
+"model": "Llama-3.2-3B",
+"config": "full",
+"rule": "payload",
+"reasoning": "look-up",
+"n_rows": 47,
+"acc": 100.0
+},
+{
+"cell": "Llama-3.2-3B full reach_pick",
+"model": "Llama-3.2-3B",
+"config": "full",
+"rule": "reach_pick",
+"reasoning": "comparison",
+"n_rows": 41,
+"acc": 100.0
+},
+{
+"cell": "Llama-3.2-3B full reach_place",
+"model": "Llama-3.2-3B",
+"config": "full",
+"rule": "reach_place",
+"reasoning": "comparison",
+"n_rows": 38,
+"acc": 100.0
+},
+{
+"cell": "Llama-3.2-3B full height",
+"model": "Llama-3.2-3B",
+"config": "full",
+"rule": "height",
+"reasoning": "comparison",
+"n_rows": 48,
+"acc": 99.2
+},
+{
+"cell": "Llama-3.2-3B full clearance",
+"model": "Llama-3.2-3B",
+"config": "full",
+"rule": "clearance",
+"reasoning": "minimum",
+"n_rows": 44,
+"acc": 2.7
+},
+{
+"cell": "Llama-3.2-3B full battery",
+"model": "Llama-3.2-3B",
+"config": "full",
+"rule": "battery",
+"reasoning": "arithmetic",
+"n_rows": 53,
+"acc": 51.7
+},
+{
+"cell": "Llama-3.2-3B compressed payload",
+"model": "Llama-3.2-3B",
+"config": "compressed",
+"rule": "payload",
+"reasoning": "look-up",
+"n_rows": 47,
+"acc": 99.1
+},
+{
+"cell": "Llama-3.2-3B compressed reach_pick",
+"model": "Llama-3.2-3B",
+"config": "compressed",
+"rule": "reach_pick",
+"reasoning": "comparison",
+"n_rows": 41,
+"acc": 97.1
+},
+{
+"cell": "Llama-3.2-3B compressed reach_place",
+"model": "Llama-3.2-3B",
+"config": "compressed",
+"rule": "reach_place",
+"reasoning": "comparison",
+"n_rows": 38,
+"acc": 100.0
+},
+{
+"cell": "Llama-3.2-3B compressed height",
+"model": "Llama-3.2-3B",
+"config": "compressed",
+"rule": "height",
+"reasoning": "comparison",
+"n_rows": 48,
+"acc": 97.5
+},
+{
+"cell": "Llama-3.2-3B compressed clearance",
+"model": "Llama-3.2-3B",
+"config": "compressed",
+"rule": "clearance",
+"reasoning": "minimum",
+"n_rows": 44,
+"acc": 42.7
+},
+{
+"cell": "Llama-3.2-3B compressed battery",
+"model": "Llama-3.2-3B",
+"config": "compressed",
+"rule": "battery",
+"reasoning": "arithmetic",
+"n_rows": 53,
+"acc": 43.8
+},
+{
+"cell": "Llama-3.2-3B progressive_4_levels payload",
+"model": "Llama-3.2-3B",
+"config": "progressive_4_levels",
+"rule": "payload",
+"reasoning": "look-up",
+"n_rows": 47,
+"acc": 64.5
+},
+{
+"cell": "Llama-3.2-3B progressive_4_levels reach_pick",
+"model": "Llama-3.2-3B",
+"config": "progressive_4_levels",
+"rule": "reach_pick",
+"reasoning": "comparison",
+"n_rows": 41,
+"acc": 95.9
+},
+{
+"cell": "Llama-3.2-3B progressive_4_levels reach_place",
+"model": "Llama-3.2-3B",
+"config": "progressive_4_levels",
+"rule": "reach_place",
+"reasoning": "comparison",
+"n_rows": 38,
+"acc": 74.6
+},
+{
+"cell": "Llama-3.2-3B progressive_4_levels height",
+"model": "Llama-3.2-3B",
+"config": "progressive_4_levels",
+"rule": "height",
+"reasoning": "comparison",
+"n_rows": 48,
+"acc": 97.9
+},
+{
+"cell": "Llama-3.2-3B progressive_4_levels clearance",
+"model": "Llama-3.2-3B",
+"config": "progressive_4_levels",
+"rule": "clearance",
+"reasoning": "minimum",
+"n_rows": 44,
+"acc": 24.2
+},
+{
+"cell": "Llama-3.2-3B progressive_4_levels battery",
+"model": "Llama-3.2-3B",
+"config": "progressive_4_levels",
+"rule": "battery",
+"reasoning": "arithmetic",
+"n_rows": 53,
+"acc": 58.5
+},
+{
+"cell": "Llama-3.2-3B progressive payload",
+"model": "Llama-3.2-3B",
+"config": "progressive",
+"rule": "payload",
+"reasoning": "look-up",
+"n_rows": 47,
+"acc": 69.8
+},
+{
+"cell": "Llama-3.2-3B progressive reach_pick",
+"model": "Llama-3.2-3B",
+"config": "progressive",
+"rule": "reach_pick",
+"reasoning": "comparison",
+"n_rows": 41,
+"acc": 83.4
+},
+{
+"cell": "Llama-3.2-3B progressive reach_place",
+"model": "Llama-3.2-3B",
+"config": "progressive",
+"rule": "reach_place",
+"reasoning": "comparison",
+"n_rows": 38,
+"acc": 77.4
+},
+{
+"cell": "Llama-3.2-3B progressive height",
+"model": "Llama-3.2-3B",
+"config": "progressive",
+"rule": "height",
+"reasoning": "comparison",
+"n_rows": 48,
+"acc": 90.0
+},
+{
+"cell": "Llama-3.2-3B progressive clearance",
+"model": "Llama-3.2-3B",
+"config": "progressive",
+"rule": "clearance",
+"reasoning": "minimum",
+"n_rows": 44,
+"acc": 13.2
+},
+{
+"cell": "Llama-3.2-3B progressive battery",
+"model": "Llama-3.2-3B",
+"config": "progressive",
+"rule": "battery",
+"reasoning": "arithmetic",
+"n_rows": 53,
+"acc": 55.5
+},
+{
+"cell": "Phi-3-mini full payload",
+"model": "Phi-3-mini",
+"config": "full",
+"rule": "payload",
+"reasoning": "look-up",
+"n_rows": 47,
+"acc": 99.1
+},
+{
+"cell": "Phi-3-mini full reach_pick",
+"model": "Phi-3-mini",
+"config": "full",
+"rule": "reach_pick",
+"reasoning": "comparison",
+"n_rows": 41,
+"acc": 96.6
+},
+{
+"cell": "Phi-3-mini full reach_place",
+"model": "Phi-3-mini",
+"config": "full",
+"rule": "reach_place",
+"reasoning": "comparison",
+"n_rows": 38,
+"acc": 99.5
+},
+{
+"cell": "Phi-3-mini full height",
+"model": "Phi-3-mini",
+"config": "full",
+"rule": "height",
+"reasoning": "comparison",
+"n_rows": 48,
+"acc": 97.9
+},
+{
+"cell": "Phi-3-mini full clearance",
+"model": "Phi-3-mini",
+"config": "full",
+"rule": "clearance",
+"reasoning": "minimum",
+"n_rows": 44,
+"acc": 3.6
+},
+{
+"cell": "Phi-3-mini full battery",
+"model": "Phi-3-mini",
+"config": "full",
+"rule": "battery",
+"reasoning": "arithmetic",
+"n_rows": 53,
+"acc": 52.1
+},
+{
+"cell": "Phi-3-mini compressed payload",
+"model": "Phi-3-mini",
+"config": "compressed",
+"rule": "payload",
+"reasoning": "look-up",
+"n_rows": 47,
+"acc": 99.6
+},
+{
+"cell": "Phi-3-mini compressed reach_pick",
+"model": "Phi-3-mini",
+"config": "compressed",
+"rule": "reach_pick",
+"reasoning": "comparison",
+"n_rows": 41,
+"acc": 97.1
+},
+{
+"cell": "Phi-3-mini compressed reach_place",
+"model": "Phi-3-mini",
+"config": "compressed",
+"rule": "reach_place",
+"reasoning": "comparison",
+"n_rows": 38,
+"acc": 100.0
+},
+{
+"cell": "Phi-3-mini compressed height",
+"model": "Phi-3-mini",
+"config": "compressed",
+"rule": "height",
+"reasoning": "comparison",
+"n_rows": 48,
+"acc": 85.4
+},
+{
+"cell": "Phi-3-mini compressed clearance",
+"model": "Phi-3-mini",
+"config": "compressed",
+"rule": "clearance",
+"reasoning": "minimum",
+"n_rows": 44,
+"acc": 3.2
+},
+{
+"cell": "Phi-3-mini compressed battery",
+"model": "Phi-3-mini",
+"config": "compressed",
+"rule": "battery",
+"reasoning": "arithmetic",
+"n_rows": 53,
+"acc": 41.9
+},
+{
+"cell": "Phi-3-mini progressive_4_levels payload",
+"model": "Phi-3-mini",
+"config": "progressive_4_levels",
+"rule": "payload",
+"reasoning": "look-up",
+"n_rows": 47,
+"acc": 92.2
+},
+{
+"cell": "Phi-3-mini progressive_4_levels reach_pick",
+"model": "Phi-3-mini",
+"config": "progressive_4_levels",
+"rule": "reach_pick",
+"reasoning": "comparison",
+"n_rows": 41,
+"acc": 95.9
+},
+{
+"cell": "Phi-3-mini progressive_4_levels reach_place",
+"model": "Phi-3-mini",
+"config": "progressive_4_levels",
+"rule": "reach_place",
+"reasoning": "comparison",
+"n_rows": 38,
+"acc": 99.1
+},
+{
+"cell": "Phi-3-mini progressive_4_levels height",
+"model": "Phi-3-mini",
+"config": "progressive_4_levels",
+"rule": "height",
+"reasoning": "comparison",
+"n_rows": 48,
+"acc": 94.4
+},
+{
+"cell": "Phi-3-mini progressive_4_levels clearance",
+"model": "Phi-3-mini",
+"config": "progressive_4_levels",
+"rule": "clearance",
+"reasoning": "minimum",
+"n_rows": 44,
+"acc": 0.8
+},
+{
+"cell": "Phi-3-mini progressive_4_levels battery",
+"model": "Phi-3-mini",
+"config": "progressive_4_levels",
+"rule": "battery",
+"reasoning": "arithmetic",
+"n_rows": 53,
+"acc": 46.5
+},
+{
+"cell": "Phi-3-mini progressive payload",
+"model": "Phi-3-mini",
+"config": "progressive",
+"rule": "payload",
+"reasoning": "look-up",
+"n_rows": 47,
+"acc": 99.1
+},
+{
+"cell": "Phi-3-mini progressive reach_pick",
+"model": "Phi-3-mini",
+"config": "progressive",
+"rule": "reach_pick",
+"reasoning": "comparison",
+"n_rows": 41,
+"acc": 96.6
+},
+{
+"cell": "Phi-3-mini progressive reach_place",
+"model": "Phi-3-mini",
+"config": "progressive",
+"rule": "reach_place",
+"reasoning": "comparison",
+"n_rows": 38,
+"acc": 100.0
+},
+{
+"cell": "Phi-3-mini progressive height",
+"model": "Phi-3-mini",
+"config": "progressive",
+"rule": "height",
+"reasoning": "comparison",
+"n_rows": 48,
+"acc": 98.8
+},
+{
+"cell": "Phi-3-mini progressive clearance",
+"model": "Phi-3-mini",
+"config": "progressive",
+"rule": "clearance",
+"reasoning": "minimum",
+"n_rows": 44,
+"acc": 2.7
+},
+{
+"cell": "Phi-3-mini progressive battery",
+"model": "Phi-3-mini",
+"config": "progressive",
+"rule": "battery",
+"reasoning": "arithmetic",
+"n_rows": 53,
+"acc": 51.3
+},
+{
+"cell": "Phi-3-mini full_code payload",
+"model": "Phi-3-mini",
+"config": "full_code",
+"rule": "payload",
+"reasoning": "look-up",
+"n_rows": 47,
+"acc": 90.6
+},
+{
+"cell": "Phi-3-mini full_code reach_pick",
+"model": "Phi-3-mini",
+"config": "full_code",
+"rule": "reach_pick",
+"reasoning": "comparison",
+"n_rows": 41,
+"acc": 98.5
+},
+{
+"cell": "Phi-3-mini full_code reach_place",
+"model": "Phi-3-mini",
+"config": "full_code",
+"rule": "reach_place",
+"reasoning": "comparison",
+"n_rows": 38,
+"acc": 100.0
+},
+{
+"cell": "Phi-3-mini full_code height",
+"model": "Phi-3-mini",
+"config": "full_code",
+"rule": "height",
+"reasoning": "comparison",
+"n_rows": 48,
+"acc": 98.8
+},
+{
+"cell": "Phi-3-mini full_code clearance",
+"model": "Phi-3-mini",
+"config": "full_code",
+"rule": "clearance",
+"reasoning": "minimum",
+"n_rows": 44,
+"acc": 78.6
+},
+{
+"cell": "Phi-3-mini full_code battery",
+"model": "Phi-3-mini",
+"config": "full_code",
+"rule": "battery",
+"reasoning": "arithmetic",
+"n_rows": 53,
+"acc": 100.0
+},
+{
+"cell": "Phi-3-mini full_4x_data payload",
+"model": "Phi-3-mini",
+"config": "full_4x_data",
+"rule": "payload",
+"reasoning": "look-up",
+"n_rows": 47,
+"acc": 97.9
+},
+{
+"cell": "Phi-3-mini full_4x_data reach_pick",
+"model": "Phi-3-mini",
+"config": "full_4x_data",
+"rule": "reach_pick",
+"reasoning": "comparison",
+"n_rows": 41,
+"acc": 98.4
+},
+{
+"cell": "Phi-3-mini full_4x_data reach_place",
+"model": "Phi-3-mini",
+"config": "full_4x_data",
+"rule": "reach_place",
+"reasoning": "comparison",
+"n_rows": 38,
+"acc": 100.0
+},
+{
+"cell": "Phi-3-mini full_4x_data height",
+"model": "Phi-3-mini",
+"config": "full_4x_data",
+"rule": "height",
+"reasoning": "comparison",
+"n_rows": 48,
+"acc": 97.2
+},
+{
+"cell": "Phi-3-mini full_4x_data clearance",
+"model": "Phi-3-mini",
+"config": "full_4x_data",
+"rule": "clearance",
+"reasoning": "minimum",
+"n_rows": 44,
+"acc": 17.4
+},
+{
+"cell": "Phi-3-mini full_4x_data battery",
+"model": "Phi-3-mini",
+"config": "full_4x_data",
+"rule": "battery",
+"reasoning": "arithmetic",
+"n_rows": 53,
+"acc": 44.0
+},
+{
+"cell": "Phi-3-mini full_2400_steps payload",
+"model": "Phi-3-mini",
+"config": "full_2400_steps",
+"rule": "payload",
+"reasoning": "look-up",
+"n_rows": 47,
+"acc": 100.0
+},
+{
+"cell": "Phi-3-mini full_2400_steps reach_pick",
+"model": "Phi-3-mini",
+"config": "full_2400_steps",
+"rule": "reach_pick",
+"reasoning": "comparison",
+"n_rows": 41,
+"acc": 100.0
+},
+{
+"cell": "Phi-3-mini full_2400_steps reach_place",
+"model": "Phi-3-mini",
+"config": "full_2400_steps",
+"rule": "reach_place",
+"reasoning": "comparison",
+"n_rows": 38,
+"acc": 100.0
+},
+{
+"cell": "Phi-3-mini full_2400_steps height",
+"model": "Phi-3-mini",
+"config": "full_2400_steps",
+"rule": "height",
+"reasoning": "comparison",
+"n_rows": 48,
+"acc": 97.9
+},
+{
+"cell": "Phi-3-mini full_2400_steps clearance",
+"model": "Phi-3-mini",
+"config": "full_2400_steps",
+"rule": "clearance",
+"reasoning": "minimum",
+"n_rows": 44,
+"acc": 50.0
+},
+{
+"cell": "Phi-3-mini full_2400_steps battery",
+"model": "Phi-3-mini",
+"config": "full_2400_steps",
+"rule": "battery",
+"reasoning": "arithmetic",
+"n_rows": 53,
+"acc": 66.0
+}
+]

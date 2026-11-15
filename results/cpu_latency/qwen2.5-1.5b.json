@@ -1,0 +1,53 @@
+{
+ "name": "qwen2.5-1.5b",
+ "model": "Qwen/Qwen2.5-1.5B-Instruct",
+ "train": "none",
+ "level": "compressed",
+ "cross": "",
+ "steps": 900,
+ "batch": 8,
+ "micro_batch": 0,
+ "eval_batch": 16,
+ "lr": 0.0002,
+ "seed": 3407,
+ "lora_targets": "q_proj,k_proj,v_proj,o_proj,gate_proj,up_proj,down_proj",
+ "val_every": 150,
+ "val_n": 480,
+ "sets": "",
+ "limit": 0,
+ "bench": {
+  "full": {
+   "n": 20,
+   "tokens_mean": 432.55,
+   "ms_mean": 8727.9216522,
+   "ms_median": 8713.574425500043
+  },
+  "no_role_question": {
+   "n": 20,
+   "tokens_mean": 373.55,
+   "ms_mean": 7591.263844299996,
+   "ms_median": 7424.34063799999
+  },
+  "no_field_descriptions": {
+   "n": 20,
+   "tokens_mean": 296.55,
+   "ms_mean": 6053.649787250004,
+   "ms_median": 5990.979130500023
+  },
+  "compressed": {
+   "n": 20,
+   "tokens_mean": 203.95,
+   "ms_mean": 4295.136597799968,
+   "ms_median": 4255.50678999997
+  }
+ },
+ "data": "/tmp/proj/data",
+ "out": "/kaggle/working/results_26_cpu/cpu_latency",
+ "device": "cpu",
+ "amp": "torch.float16",
+ "final_level": "compressed",
+ "torch": "2.11.0+cpu",
+ "results": {},
+ "predictions": {},
+ "eval_oom_splits": 0
+}

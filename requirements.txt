@@ -1,0 +1,11 @@
+# analysis, data, figures, tests (CPU)
+numpy
+scikit-learn
+matplotlib
+pytest
+# fine-tuning and scoring (GPU); the reported runs used PyTorch 2.11.0 on Kaggle
+torch
+transformers
+peft
+# only for tools/make_lingua.py
+llmlingua

@@ -1,0 +1,44 @@
+[
+{
+"baseline": "Always the majority answer",
+"test": 50.0,
+"near_threshold": 50.0,
+"k_pairs": 0.0,
+"g_pairs": 0.0
+},
+{
+"baseline": "Object name only",
+"test": 55.6,
+"near_threshold": 51.9,
+"k_pairs": 0.0,
+"g_pairs": 26.0
+},
+{
+"baseline": "D only",
+"test": 72.2,
+"near_threshold": 49.0,
+"k_pairs": 0.0,
+"g_pairs": 0.0
+},
+{
+"baseline": "Without K (G and D)",
+"test": 72.0,
+"near_threshold": 51.5,
+"k_pairs": 0.0,
+"g_pairs": 1.5
+},
+{
+"baseline": "G, K, D (raw numbers)",
+"test": 87.9,
+"near_threshold": 60.2,
+"k_pairs": 39.5,
+"g_pairs": 66.5
+},
+{
+"baseline": "Rule slacks given",
+"test": 99.4,
+"near_threshold": 97.7,
+"k_pairs": 97.6,
+"g_pairs": 96.0
+}
+]

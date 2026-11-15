@@ -1,0 +1,218 @@
+[
+{
+"point": "Kaggle CPU Qwen2.5-0.5B full",
+"machine": "Kaggle CPU",
+"cpu": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+"model": "Qwen2.5-0.5B",
+"level": "full",
+"tokens": 433,
+"ms": 2490
+},
+{
+"point": "Kaggle CPU Qwen2.5-0.5B no_role_question",
+"machine": "Kaggle CPU",
+"cpu": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+"model": "Qwen2.5-0.5B",
+"level": "no_role_question",
+"tokens": 374,
+"ms": 2159
+},
+{
+"point": "Kaggle CPU Qwen2.5-0.5B no_field_descriptions",
+"machine": "Kaggle CPU",
+"cpu": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+"model": "Qwen2.5-0.5B",
+"level": "no_field_descriptions",
+"tokens": 297,
+"ms": 1714
+},
+{
+"point": "Kaggle CPU Qwen2.5-0.5B compressed",
+"machine": "Kaggle CPU",
+"cpu": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+"model": "Qwen2.5-0.5B",
+"level": "compressed",
+"tokens": 204,
+"ms": 1212
+},
+{
+"point": "Kaggle CPU Qwen2.5-1.5B full",
+"machine": "Kaggle CPU",
+"cpu": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+"model": "Qwen2.5-1.5B",
+"level": "full",
+"tokens": 433,
+"ms": 8728
+},
+{
+"point": "Kaggle CPU Qwen2.5-1.5B no_role_question",
+"machine": "Kaggle CPU",
+"cpu": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+"model": "Qwen2.5-1.5B",
+"level": "no_role_question",
+"tokens": 374,
+"ms": 7591
+},
+{
+"point": "Kaggle CPU Qwen2.5-1.5B no_field_descriptions",
+"machine": "Kaggle CPU",
+"cpu": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+"model": "Qwen2.5-1.5B",
+"level": "no_field_descriptions",
+"tokens": 297,
+"ms": 6054
+},
+{
+"point": "Kaggle CPU Qwen2.5-1.5B compressed",
+"machine": "Kaggle CPU",
+"cpu": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+"model": "Qwen2.5-1.5B",
+"level": "compressed",
+"tokens": 204,
+"ms": 4295
+},
+{
+"point": "Kaggle CPU Qwen2.5-3B full",
+"machine": "Kaggle CPU",
+"cpu": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+"model": "Qwen2.5-3B",
+"level": "full",
+"tokens": 433,
+"ms": 19484
+},
+{
+"point": "Kaggle CPU Qwen2.5-3B no_role_question",
+"machine": "Kaggle CPU",
+"cpu": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+"model": "Qwen2.5-3B",
+"level": "no_role_question",
+"tokens": 374,
+"ms": 16670
+},
+{
+"point": "Kaggle CPU Qwen2.5-3B no_field_descriptions",
+"machine": "Kaggle CPU",
+"cpu": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+"model": "Qwen2.5-3B",
+"level": "no_field_descriptions",
+"tokens": 297,
+"ms": 12757
+},
+{
+"point": "Kaggle CPU Qwen2.5-3B compressed",
+"machine": "Kaggle CPU",
+"cpu": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+"model": "Qwen2.5-3B",
+"level": "compressed",
+"tokens": 204,
+"ms": 9032
+},
+{
+"point": "Kaggle CPU Phi-3-mini full",
+"machine": "Kaggle CPU",
+"cpu": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+"model": "Phi-3-mini",
+"level": "full",
+"tokens": 446,
+"ms": 24664
+},
+{
+"point": "Kaggle CPU Phi-3-mini no_role_question",
+"machine": "Kaggle CPU",
+"cpu": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+"model": "Phi-3-mini",
+"level": "no_role_question",
+"tokens": 382,
+"ms": 21652
+},
+{
+"point": "Kaggle CPU Phi-3-mini no_field_descriptions",
+"machine": "Kaggle CPU",
+"cpu": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+"model": "Phi-3-mini",
+"level": "no_field_descriptions",
+"tokens": 302,
+"ms": 17389
+},
+{
+"point": "Kaggle CPU Phi-3-mini compressed",
+"machine": "Kaggle CPU",
+"cpu": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+"model": "Phi-3-mini",
+"level": "compressed",
+"tokens": 193,
+"ms": 11880
+},
+{
+"point": "Authors machine Qwen2.5-0.5B full",
+"machine": "Authors machine",
+"cpu": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+"model": "Qwen2.5-0.5B",
+"level": "full",
+"tokens": 433,
+"ms": 2131
+},
+{
+"point": "Authors machine Qwen2.5-0.5B no_role_question",
+"machine": "Authors machine",
+"cpu": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+"model": "Qwen2.5-0.5B",
+"level": "no_role_question",
+"tokens": 374,
+"ms": 1844
+},
+{
+"point": "Authors machine Qwen2.5-0.5B no_field_descriptions",
+"machine": "Authors machine",
+"cpu": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+"model": "Qwen2.5-0.5B",
+"level": "no_field_descriptions",
+"tokens": 297,
+"ms": 1469
+},
+{
+"point": "Authors machine Qwen2.5-0.5B compressed",
+"machine": "Authors machine",
+"cpu": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+"model": "Qwen2.5-0.5B",
+"level": "compressed",
+"tokens": 204,
+"ms": 951
+},
+{
+"point": "Authors machine Qwen2.5-1.5B full",
+"machine": "Authors machine",
+"cpu": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+"model": "Qwen2.5-1.5B",
+"level": "full",
+"tokens": 433,
+"ms": 6711
+},
+{
+"point": "Authors machine Qwen2.5-1.5B no_role_question",
+"machine": "Authors machine",
+"cpu": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+"model": "Qwen2.5-1.5B",
+"level": "no_role_question",
+"tokens": 374,
+"ms": 5927
+},
+{
+"point": "Authors machine Qwen2.5-1.5B no_field_descriptions",
+"machine": "Authors machine",
+"cpu": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+"model": "Qwen2.5-1.5B",
+"level": "no_field_descriptions",
+"tokens": 297,
+"ms": 4988
+},
+{
+"point": "Authors machine Qwen2.5-1.5B compressed",
+"machine": "Authors machine",
+"cpu": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+"model": "Qwen2.5-1.5B",
+"level": "compressed",
+"tokens": 204,
+"ms": 3743
+}
+]
